@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 32px;
+  height: 800px;
+  padding: 32px 20px;
+  align-items: center;
+}
+
+.text-container,
+.image-container {
+  width: 600px;
+}
+
+.text-container {
+  padding-left: 32px;
+}
+
+.text-container h1 {
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.text-container p {
+  font-size: 24px;
+}
+
+.image-container .shape {
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  right: 0;
+  width: 800px;
+  height: 911px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 800px;
+  background-color: #346261;
+  backdrop-filter: blur(20px);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px
+      0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.image-container .card {
+  width: 800px;
+  position: absolute;
+  top: 100px;
+  right: 0px; /* 250px */
+  opacity: 0;
+  border-radius: 25px;
+  background-color: transparent;
+  animation: FadeIn 0.5s forwards;
+}
+
+.image-container .card h2 {
+  text-align: center;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  opacity: 0;
+  animation: OpacityIn 0.7s forwards;
+  color: #fff;
+}
+
+.image-container .card img {
+  width: 800px;
+  border-radius: 25px;
+}
+
+.image-container .card a {
+  margin-inline: 200px;
+  padding: 15px 15px;
+  background-color: #ffffff;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 400;
+  opacity: 0;
+  animation: OpacityOut 0.7s forwards;
+  border-radius: 25px;
+  backdrop-filter: blur(50px);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px
+    inset;
+}
+
+footer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}
+
+footer .presets {
+  display: flex;
+  gap: 24px;
+}
+
+footer .presets a {
+  text-decoration: none;
+  color: black;
+}
+
+footer img {
+  width: 100px;
+  border-radius: 50px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+footer .active {
+  animation: getUp 0.3s forwards;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.footer .animation {
+  font-weight: 600;
+  opacity: 0;
+  animation: Piscar 0.1s linear infinite;
+}
+
+@keyframes FadeIn {
+  to {
+    right: 250px;
+    opacity: 1;
+  }
+}
+
+@keyframes FadeOut {
+  to {
+    right: 0px;
+    opacity: 0;
+  }
+}
+
+@keyframes getUp {
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes getDown {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes OpacityIn {
+  to {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+}
+
+@keyframes OpacityOut {
+  to {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+}
+
+@keyframes Piscar {
+  to {
+    opacity: 1;
+  }
+}
