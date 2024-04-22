@@ -1,7 +1,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 375px) and (max-width: 1475px) {
   body {
-    overflow-y: hidden;
+    overflow: none;
     min-height: 100vh;
   }
   .container {
@@ -97,6 +97,8 @@
   }
 
   .footer {
+    position: absolute;
+    bottom: 20px;
     font-size: 12px;
   }
 
