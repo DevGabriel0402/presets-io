@@ -82,6 +82,7 @@
     backdrop-filter: blur(50px);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px
       inset;
+    cursor: pointer;
   }
 
   footer .presets {
