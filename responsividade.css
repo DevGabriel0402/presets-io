@@ -41,6 +41,7 @@
     font-size: 32px;
     text-transform: uppercase;
     text-align: center !important;
+    color: #000;
   }
 
   .text-container p {
@@ -66,7 +67,7 @@
   }
 
   .image-container .card h2 {
-    color: #000 !important;
+    color: #fff;
     text-align: center;
   }
 
