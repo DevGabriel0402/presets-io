@@ -111,8 +111,7 @@
   }
 
   .footer {
-    position: absolute;
-    bottom: 20px;
+    padding-bottom: 20px;
     font-size: 12px;
   }
 
