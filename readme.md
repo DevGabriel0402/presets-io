@@ -8,6 +8,6 @@ Projeto criando para estudar melhor os evento do javascript. A intenção desse 
 
 ## Tecnologias Usadas
 
-![CSS](https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=61DAFB)
-![CSS](https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=61DAFB)
-![CSS](https://img.shields.io/badge/javascriipt-20232A?style=for-the-badge&logo=javascript&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-219052?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-219052?style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/Javascript-219052?style=for-the-badge&logo=javascript&logoColor=white)
