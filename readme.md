@@ -10,4 +10,4 @@ Projeto criando para estudar melhor os evento do javascript. A intenção desse 
 
 ![CSS](https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=61DAFB)
 ![CSS](https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=61DAFB)
-![CSS](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![CSS](https://img.shields.io/badge/javascriipt-20232A?style=for-the-badge&logo=javascript&logoColor=white)
